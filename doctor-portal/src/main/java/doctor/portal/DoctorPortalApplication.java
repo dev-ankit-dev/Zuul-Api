@@ -19,6 +19,9 @@ public class DoctorPortalApplication {
 		
 		SpringApplication.run(DoctorPortalApplication.class, args);
 		
+		System.out.println("hello doctor portal changes ");
+		
+		
 		
 }
 

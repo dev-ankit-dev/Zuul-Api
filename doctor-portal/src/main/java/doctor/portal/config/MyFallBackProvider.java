@@ -61,6 +61,7 @@ public class MyFallBackProvider implements FallbackProvider {
             public HttpHeaders getHeaders() {
                 HttpHeaders headers = new HttpHeaders();
                 headers.setContentType(MediaType.APPLICATION_JSON);
+                System.out.println("HttpHeaders getHeaders");
                 return headers;
             }
         };
