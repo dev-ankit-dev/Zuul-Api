@@ -15,11 +15,11 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 public class DoctorPortalApplication {
 
 	public static void main(String[] args) {
-		
-		
+
 		SpringApplication.run(DoctorPortalApplication.class, args);
 		
-		System.out.println("heer we use EnableZuulProxy ");
+		System.out.println("hello fixes in main method");
+
 	}
 
 }
