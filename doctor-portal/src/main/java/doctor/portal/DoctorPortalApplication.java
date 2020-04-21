@@ -18,7 +18,7 @@ public class DoctorPortalApplication {
 
 		SpringApplication.run(DoctorPortalApplication.class, args);
 		
-		System.out.println("hello fixes in main method");
+		System.out.println("fixesee v,cmvncx,bcxnbcxbm,bb, cx,vcxv doctor pro");
 
 	}
 
