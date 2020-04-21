@@ -13,6 +13,8 @@ public class MainController {
 
 	@GetMapping("/diseases")
 	public String doctors() {
+		
+		System.out.println("diseases");
 
 		return "List of diseases";
 	}

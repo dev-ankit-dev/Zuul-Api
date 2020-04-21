@@ -14,6 +14,8 @@ public class DeseasesServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DeseasesServiceApplication.class, args);
+		
+		System.out.println("DeseasesServiceApplication");
 	}
 
 }
