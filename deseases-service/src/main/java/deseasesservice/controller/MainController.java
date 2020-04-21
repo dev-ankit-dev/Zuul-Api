@@ -4,11 +4,20 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
+/**
+ * @author Tiwari
+ *
+ */
+
+
 @RestController
 public class MainController {
 
     @GetMapping("/diseases")
     public String doctors(){
+    	
+    	 System.out.println("List of diseases");
+    	 
         return "List of diseases";
     }
 }
