@@ -19,7 +19,7 @@ public class DoctorPortalApplication {
 		
 		SpringApplication.run(DoctorPortalApplication.class, args);
 		
-		System.out.println("heer we use EnableZuulProxy ");
-	}
+		
+}
 
 }
