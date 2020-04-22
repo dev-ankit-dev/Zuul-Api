@@ -13,6 +13,8 @@ public class ConfigServerLocalApplication {
 		
 		System.out.println("@EnableConfigServer");
 		System.out.println("EnableConfigServer");
+		System.out.println("@EnableConfigServer");
+		System.out.println("EnableConfigServer");
 
 		
 	
