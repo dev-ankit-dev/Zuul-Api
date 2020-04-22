@@ -12,10 +12,8 @@ public class ConfigServerLocalApplication {
 		SpringApplication.run(ConfigServerLocalApplication.class, args);
 		
 		System.out.println("@EnableConfigServer");
-		System.out.println("EnableConfigServer");
-		System.out.println("@EnableConfigServer");
-		System.out.println("EnableConfigServer");
-
+		System.out.println("EnableConfigSerdver");
+	
 		
 	
 	}
