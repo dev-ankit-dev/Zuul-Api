@@ -13,6 +13,8 @@ public class ConfigServerLocalApplication {
 		
 		System.out.println("@EnableConfigServer");
 		System.out.println("EnableConfigSerdver");
+		System.out.println("EnableConfigSerdver application is used for config  a server into remote location");
+		System.out.println("EnableConfigSerdver");
 	
 		
 	
