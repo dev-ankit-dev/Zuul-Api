@@ -1,0 +1,15 @@
+microservices git config colud services
+=======================================
+
+https://www.youtube.com/watch?v=k6IDUioUbG8&list=PLZnMNSr-VrIjHBmE7rnza23kp01kzr8hc&index=9&frags=pl%2Cwn
+
+
+What is Spring Cloud Config ?Need for it?
+
+Spring Cloud Config provides server and (client-side support) for externalized configuration in a (distributed system.) 
+With the Config Server you have a (central place to manage external properties) for applications across all environments.
+
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka
