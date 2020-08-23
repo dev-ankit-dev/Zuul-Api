@@ -26,6 +26,7 @@ public class GreetingController {
         Collection<Greeting> greetings = greetingService.findAll();
         
         System.out.println("GreetingController");
+        System.out.println("second controller commit");
 
         return new ResponseEntity<Collection<Greeting>>(greetings,
                 HttpStatus.OK);
