@@ -24,6 +24,8 @@ public class GreetingController {
     public ResponseEntity<Collection<Greeting>> getGreetings() {
 
         Collection<Greeting> greetings = greetingService.findAll();
+        
+        System.out.println("GreetingController");
 
         return new ResponseEntity<Collection<Greeting>>(greetings,
                 HttpStatus.OK);
