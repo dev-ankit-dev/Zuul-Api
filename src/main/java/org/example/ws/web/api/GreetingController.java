@@ -27,6 +27,7 @@ public class GreetingController {
         
         System.out.println("GreetingController");
         System.out.println("second controller commit");
+        System.out.println("second controller pull");
 
         return new ResponseEntity<Collection<Greeting>>(greetings,
                 HttpStatus.OK);
