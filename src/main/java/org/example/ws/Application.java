@@ -16,7 +16,6 @@ public class Application {
         SpringApplication.run(Application.class, args);
         System.out.println("hello how are sagun");
         System.out.println("hello how are amit");
-        System.out.println("hello how are ashu");
-        System.out.println("hello how are ankit");
+
     }
 }
